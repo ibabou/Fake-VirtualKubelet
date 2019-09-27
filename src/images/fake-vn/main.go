@@ -45,7 +45,6 @@ func main() {
 				cfg.InternalIP,
 				cfg.DaemonPort)
 		}),
-		nil,
 		cli.WithPersistentPreRunCallback(func() error {
 			return logruscli.Configure(logConfig, logger)
 		}),

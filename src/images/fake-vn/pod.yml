@@ -18,8 +18,6 @@ spec:
     - --klog.v
     - "2"
     - --klog.logtostderr
-    - --log-level
-    - debug
     env:
     - name: KUBELET_PORT
       value: "10250"
