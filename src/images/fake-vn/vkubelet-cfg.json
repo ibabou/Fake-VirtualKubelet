@@ -1,0 +1,8 @@
+{
+    "vkubelet-mock-0": {
+      "cpu": "2000",
+      "memory": "8Ti",
+      "pods": "4000"
+    }
+}
+  
